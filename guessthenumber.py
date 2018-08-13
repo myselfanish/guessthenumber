@@ -16,10 +16,10 @@ def gtn():
         else:
             if user_guess > code_number:
                 print('your guess is greater than secret code')
-                tkinter.messagebox._show('Welcome Message','your guess is greater than secret code')
+                tkinter.messagebox._show('Hint:','your guess is greater than secret code')
             else:
                 print('your guess is smaller than secret code')
-                tkinter.messagebox._show('Welcome Message', 'your guess is smaller than secret code')
+                tkinter.messagebox._show('Hint:', 'your guess is smaller than secret code')
             wrong_guesses.append(user_guess)
             print('Your Wrong Guesses: ', wrong_guesses)
             tkinter.messagebox._show('Your Wrong Guesses:',wrong_guesses)
